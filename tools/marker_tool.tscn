@@ -1,0 +1,24 @@
+[gd_scene load_steps=2 format=3 uid="uid://chwcefg66rjdr"]
+
+[ext_resource type="Script" path="res://tools/marker_tool.gd" id="1_p3r38"]
+
+[node name="MarkerTool" type="Panel"]
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+size_flags_horizontal = 4
+size_flags_vertical = 4
+script = ExtResource("1_p3r38")
+
+[node name="CenterContainer" type="CenterContainer" parent="."]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="TextureRect" type="TextureRect" parent="CenterContainer"]
+layout_mode = 2
